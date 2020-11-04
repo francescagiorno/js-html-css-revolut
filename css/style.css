@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inline-list li {
+  display: inline-block;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+}
+.nav-header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.container-list{
+  position: relative;
+  
+}
+.box{
+
+  border: 1px solid black;
+  position: absolute;
+  top: 60px;
+  left: 55%;
+  height: 200px;
+  width: 120px;
+}
